@@ -1,27 +1,30 @@
 # Rift Bare Template
-This repository is just a bare project template with Rift framework, minimal examples of development, testing and deployment are represented.
+This repository serves as a barebones project template with the Rift framework. It includes minimal examples of development, testing, and deployment.
 
-## Initialize Project
-To start a project you can either use this template directly by GitHub's interface, clicking `Use this template` and cloning your project. Another way is to use `rift` command to take care of this:
+## Initializing the Project
+To start a new project, you have two options:
+
+1. Use this template directly through GitHub's interface by clicking the Use this template button and cloning your project.
+2. Use the rift command:
 ```bash
 rift init my-project
 ```
-Which will initialize a new project in `my-project` directory.
+This will initialize a new project in the `my-project` directory.
 
-## Build
-To build you can run (Replace `TARGET` with target contract or `all` to build whole project):
+## Building the Project
+To build the project, run the following command (replace `TARGET` with the target contract or `all` to build the entire project):
 ```bash
 rift build TARGET
 ```
 
-## Test
-To execute tests on a `TARGET` you can run:
+## Testing
+To run tests on a `TARGET` contract, use the following command:
 ```bash
 rift test TARGET
 ```
 
-## Deploy
-To deploy your `TARGET` contract:
+## Deployment
+To deploy your `TARGET` contract, use the following command:
 ```bash
 rift deploy TARGET
 ```
