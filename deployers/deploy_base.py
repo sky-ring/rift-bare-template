@@ -4,7 +4,7 @@ from rift import *
 from contracts.bare_template import BaseContract
 
 
-def deploy():
+def deploy(network: Network):
     init_data = Cell()
     msg, addr = BaseContract.deploy(init_data, amount=2 * 10 ** 8)
     return msg, False
